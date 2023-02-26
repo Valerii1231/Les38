@@ -1,0 +1,64 @@
+/*NULL*/
+h1,h2,h3,p{margin: 0;}
+/*NULL*/
+
+.wrapper{
+    max-width: 670px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    background-color: #46b1de;
+    margin-bottom: 15px;
+}
+
+.article{
+    background-color: olivedrab;
+    padding: 0 5px;
+}
+
+.article__title{
+    margin-bottom: 10px;
+   
+}
+.article__title h2{
+    text-align: center;    
+}
+
+.articlebody__title {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.articlebody__title h2{
+   font-weight: 700;
+   text-align: left;
+}
+
+.ArticleActions__title {
+    display:flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 5px 20px;
+    background-color: darkorange;
+    border-radius: 8px;
+    border-color:darkorange;
+    font-weight: 700;
+}
+
+.articleauthor__title {
+    margin-top: 5px;
+    padding: 0 30px;
+    display:flex;
+    justify-content: space-between;
+  }
+
+.articleauthor__title h6{
+    font-size: 16px;
+   
+}
